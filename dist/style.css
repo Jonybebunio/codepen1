@@ -1,0 +1,70 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+.main-content{ margin: center;
+  background-image: url("https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311_960_720.jpg"); 
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+ 
+ }
+
+.main-content::before{
+  content:'';
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/25/15/52/design-3561661_960_720.jpg"); 
+  position: absolute;
+  opacity:0.6;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+}
+
+html{font-family: 'Indie Flower', cursive;
+  font-size: 20px
+}
+p{color:#DBE1D0;}
+nav{position: relative;}
+.c-site-header{text-align: center;
+color:black;
+background-color:#B7FA25;
+border-radius: 2rem;
+position:relative;}
+
+
+.My-Profile-img{
+  position:relative;
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+  padding:0 0 0 20%;
+  margin:auto;
+}
+.video{
+  margin:auto;
+  padding:50px 0 0 2rem;
+  max-width: 50%;
+  height: auto;
+}
+
+  
+}
+.c-site-footer{
+  background-color:#00cccc;}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
